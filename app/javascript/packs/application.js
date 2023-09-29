@@ -10,8 +10,9 @@ import "channels"
 import "jquery"
 import "popper.js"
 import "bootstrap"
+require("jquery")
 
-import "../stylesheets/application" 
+import "../stylesheets/application"
 
 Rails.start()
 Turbolinks.start()
